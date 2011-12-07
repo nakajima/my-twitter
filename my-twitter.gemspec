@@ -4,8 +4,8 @@ require File.expand_path('../lib/my-twitter/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Pat Nakajima"]
   gem.email         = ["patnakajima@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{For Twitter command line scripts that need the API}
+  gem.summary       = %q{For Twitter command line scripts that need the API}
   gem.homepage      = ""
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
